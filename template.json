@@ -4,7 +4,7 @@
     "parameters": {
         "location": {
             "type": "string",
-            "defaultValue": "[resourceGroup().location]",
+            "defaultValue": "eastus",
             "metadata": {
                 "description": "Location for all resources."
             }
@@ -18,7 +18,7 @@
         },
         "customData": {
             "type": "string",
-            "defaultValue": "echo customData",
+            "defaultValue": "storage-account=None,access-key=None,file-share=None,share-directory=None",
             "metadata": {
                 "description": "String passed down to the Virtual Machine."
             }
