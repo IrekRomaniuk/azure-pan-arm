@@ -34,12 +34,13 @@
             "type": "string",
             "allowedValues": [
                 "latest",
-                "9.1.2"
+                "9.1.2",
+                "8.1.12"
             ],
             "metadata": {
                 "description": "Version number of VM-Series VM in the Azure portal"
             },
-            "defaultValue": "latest"
+            "defaultValue": "8.1.12"
         },
         "vmSize": {
             "type": "string",
