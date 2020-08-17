@@ -40,7 +40,7 @@
             "metadata": {
                 "description": "Version number of VM-Series VM in the Azure portal"
             },
-            "defaultValue": "8.1.12"
+            "defaultValue": "9.1.2"
         },
         "vmSize": {
             "type": "string",
